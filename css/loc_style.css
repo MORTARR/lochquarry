@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* color body #f0f1f1 */
+/* color nav and footer #5f6d68  light gr*/
+/* color details buttons #1e4541 dark gr */
+/* color less white #ebe5e8 */
+/* fonts Rajdhani for P, Teko for H*/
+/*font-family: "Rajdhani", sans-serif;
+font-weight: 500 for P-600 for H;
+font-family: "Teko", sans-serif;
+font-weight: 600 for BIG WORDS;*/
+
+header{
+    background-color: #f0f1f1;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    display: inline-block;
+}
+
+header a img{
+    width: 285px;
+    display:inline-block;
+}
+
+header button{
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #1e4541;
+    color: #f0f1f1;
+}
+.hero button{
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #1e4541;
+    color: #f0f1f1;
+}
+
+nav {
+    background-color: #f0f1f1;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul a{
+    font-size: 50px;
+    font-family: "Teko", sans-serif;
+    font-weight: 600;
+    color: #1e4541;
+}
+
+h, h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+}
+p, a, p1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color:#f0f1f1;
+}
+
+body{
+    background-color: #f0f1f1;
+}
+
+.info{
+    text-align: center;
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.info h1{
+    padding-bottom: 15px;
+}
+
+.company-review-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 16px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.review-card {
+    width: 300px;
+}
+
+.container {
+    position: relative;
+    text-align:inherit;
+    font-size: 18px;
+    color: white;
+}
+.centered {
+    position:absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.centered p{
+    padding-bottom: 15px;
+}
+.centered p1{
+    font-size: 14px;
+}
+.container-hero{
+    position: relative;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+.up-center{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.review-card-content {
+    width: 100%;
+    text-align: center;
+}
+.review-card-img{
+    width: 310px;
+}
+
+.subject-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    background-color: #1e4541;
+    color: #f0f1f1;
+    gap: 15px;
+}
+.card{
+    width:500px;
+}
+.card-image img{
+    border-radius: 20px;
+    aspect-ratio: 1 / 1.33;
+}
+.card-context p1{
+    text-align: center;
+}
+
+.staff-subject-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    background-color: #f0f1f1;
+    color: #1e4541;
+    gap: 15px;
+}
+
+.staff-card-context {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: left;
+}
+.staff-card-image img{
+    border-radius: 10%;
+}
+.staff-info{
+    text-align: center;
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #f0f1f1;
+    color: #1e4541;
+
+}
+
+.hphero img {
+    width: 100%;
+}
+
+footer {
+    background-color: #5f6d68;
+    padding: 10px;
+}
+
+.contact-info-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+.contactus-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.LOC-copyright{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.LOC-copyright p{
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    background-color: #1e4541;
+    color:#f0f1f1;
+    border: none;
+    padding: 0 50px;
+    display: inline-block;
+}
